@@ -1,0 +1,71 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!319 &31900000
+AvatarMask:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: CharMask
+  m_Mask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+  m_Elements:
+  - m_Path: 
+    m_Weight: 1
+  - m_Path: Char
+    m_Weight: 1
+  - m_Path: rigChar
+    m_Weight: 1
+  - m_Path: rigChar/ekor
+    m_Weight: 0
+  - m_Path: rigChar/ekor/panggul.L
+    m_Weight: 0
+  - m_Path: rigChar/ekor/panggul.L/kaki.L
+    m_Weight: 0
+  - m_Path: rigChar/ekor/panggul.L/kaki.L/telapak.L
+    m_Weight: 0
+  - m_Path: rigChar/ekor/panggul.L/kaki.L/telapak.L/telapak.L_end
+    m_Weight: 0
+  - m_Path: rigChar/ekor/panggul.R
+    m_Weight: 0
+  - m_Path: rigChar/ekor/panggul.R/kaki.R
+    m_Weight: 0
+  - m_Path: rigChar/ekor/panggul.R/kaki.R/telapak.R
+    m_Weight: 0
+  - m_Path: rigChar/ekor/panggul.R/kaki.R/telapak.R/telapak.R_end
+    m_Weight: 0
+  - m_Path: rigChar/ekor/perut
+    m_Weight: 1
+  - m_Path: rigChar/ekor/perut/dada
+    m_Weight: 1
+  - m_Path: rigChar/ekor/perut/dada/ndas
+    m_Weight: 1
+  - m_Path: rigChar/ekor/perut/dada/ndas/ndas_end
+    m_Weight: 1
+  - m_Path: rigChar/ekor/perut/dada/pundak.L
+    m_Weight: 1
+  - m_Path: rigChar/ekor/perut/dada/pundak.L/lengan.L
+    m_Weight: 1
+  - m_Path: rigChar/ekor/perut/dada/pundak.L/lengan.L/lenganBawah.L
+    m_Weight: 1
+  - m_Path: rigChar/ekor/perut/dada/pundak.L/lengan.L/lenganBawah.L/tangan.L
+    m_Weight: 1
+  - m_Path: rigChar/ekor/perut/dada/pundak.L/lengan.L/lenganBawah.L/tangan.L/jempol.L
+    m_Weight: 1
+  - m_Path: rigChar/ekor/perut/dada/pundak.L/lengan.L/lenganBawah.L/tangan.L/jempol.L/jempol.L_end
+    m_Weight: 1
+  - m_Path: rigChar/ekor/perut/dada/pundak.R
+    m_Weight: 1
+  - m_Path: rigChar/ekor/perut/dada/pundak.R/lengan.R
+    m_Weight: 1
+  - m_Path: rigChar/ekor/perut/dada/pundak.R/lengan.R/lenganBawah.R
+    m_Weight: 1
+  - m_Path: rigChar/ekor/perut/dada/pundak.R/lengan.R/lenganBawah.R/tangan.R
+    m_Weight: 1
+  - m_Path: rigChar/ekor/perut/dada/pundak.R/lengan.R/lenganBawah.R/tangan.R/jempol.R
+    m_Weight: 1
+  - m_Path: rigChar/ekor/perut/dada/pundak.R/lengan.R/lenganBawah.R/tangan.R/jempol.R/jempol.R_end
+    m_Weight: 1
+  - m_Path: rigChar/ekor/perut/dada/pundak.R/lengan.R/lenganBawah.R/tangan.R/pedang
+    m_Weight: 1
+  - m_Path: rigChar/ekor/perut/dada/pundak.R/lengan.R/lenganBawah.R/tangan.R/pedang/pedang_end
+    m_Weight: 1
