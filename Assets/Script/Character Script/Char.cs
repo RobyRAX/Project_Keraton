@@ -45,8 +45,12 @@ public class Char : MonoBehaviour
         }      
     }
 
+
     void AnalogMovement()
     {
+#if UNITY_EDITOR
+        //Logic WASD
+#elif UNITY_ANDROID
         float angle = Mathf.Atan2(joystick.Horizontal, joystick.Vertical) * Mathf.Rad2Deg;
         Quaternion rotationTarget = Quaternion.Euler(new Vector3(0, angle, 0));
         
@@ -62,6 +66,7 @@ public class Char : MonoBehaviour
             charObject.GetComponent<CharAnimController>().WalkOff();
             cameraObject.GetComponent<CameraEffect>().WalkEffectOff();           
         }           
+#endif
     }
 
     public void Dash()
